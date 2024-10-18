@@ -37,3 +37,41 @@ Scalability: The application allows for managing multiple asset files and dynami
 Error-Resilience: Exception handling ensures the program continues running even if errors occur during file I/O operations.
 Modular Design: The program is structured into small, manageable methods, improving readability, maintainability, and ease of debugging.
 This project demonstrates the ability to handle file-based data persistence, input validation, user-friendly console applications, and basic CRUD operations.
+
+
+UML Diagram 
+
++--------------------------------+
+|           Asset                |
++--------------------------------+
+| - ArticleNumber: string        |
+| - ArticleName: string          |
+| - Model: string                |
+| - Quantity: int                |
+| - UnitPrice: decimal           |
+| - TotalPrice: decimal {get}    |
+| - Country: string              |
++--------------------------------+
+| + Asset(...)                   |
+| + ToString(): string           |
++--------------------------------+
+
++--------------------------------+
+|           Program              |
++--------------------------------+
+| - assets: List<Asset>          |
+| - nextArticleNumber: int       |
+| - defaultDirectory: string     |
++--------------------------------+
+| + Main(): void                 |
+| + ShowDashboard(): void        |
+| + AddAsset(): void             |
+| + ViewAssets(): void           |
+| + UpdateAsset(): void          |
+| + DeleteAsset(): void          |
+| + SaveAssets(filePath: string) |
+| + LoadAssets(filePath: string) |
+| + ConfirmExit(): void          |
+| + GetCountryCode(): string     |
+| + GetValidInteger(...): int    |
+| + GetValidDecimal(...):

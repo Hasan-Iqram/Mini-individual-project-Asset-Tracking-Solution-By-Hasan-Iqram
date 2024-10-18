@@ -75,3 +75,22 @@ UML Diagram
 | + GetCountryCode(): string     |
 | + GetValidInteger(...): int    |
 | + GetValidDecimal(...):
+
+
+
+
+Defination of Assets here
+
+General Categories of Fixed Assets:
+
+
+The following are the general list categories of fixed assets:
+
+1. Buildings include an office building, warehouse, and other similar kinds. Their useful life is normally longer compared to other fixed assets.
+2. Computer equipment: Laptops, desktops, servers, printers, and other similar equipment. Useful life is around three to five years depending on the type of equipment.
+3. Communication equionpment: Modems Mobile phones Landline telephones Answering machines Teleprinters Fax machines Pagers Routers Wireless devices.
+4. Furniture and fixtures: Tables, chairs, closets, cabinets, and others.
+5. Intangible assets: These are a franchise, copyright, trademark, and sometimes software also included here.
+6. Land: Land is classed separately from building and land improvement. Land could not be depreciated.
+7. Machinery: This is the list of machines example cutting machines
+8. Vehicles: These are cars, trucks, and other related vehicles.
